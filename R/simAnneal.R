@@ -7,7 +7,7 @@
 #' \code{numVarRetained} a vector of integrers with length = number of itrations required
 #' @author Barry C.
 #' 
-simAnneall <- function(data=NULL, plot=TRUE){
+simAnneal <- function(data=NULL, plot=TRUE){
   
   # check if user has provided a table if not stop process
   if(is.null(data)){
