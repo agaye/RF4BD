@@ -1,0 +1,14 @@
+Package: RF4BD
+Type: Package
+Title: Random Forest analysis for big data (e.g. GWAS data)
+Version: 1.0.0
+Date: 2016-08-22
+Author: Amadou Gaye & Charles Barry
+Maintainer: Amadou Gaye <amadou.gaye@nih.gov>
+Description: To be written
+License: GPL-3
+LazyLoad: yes
+Depends:
+    randomForest, 
+    ranger
+RoxygenNote: 5.0.1
